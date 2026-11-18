@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "fr.exemple.alienplayer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "LayerDefinitionsMixin",
+    "AvatarRendererMixin",
+    "ArmorMeshMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

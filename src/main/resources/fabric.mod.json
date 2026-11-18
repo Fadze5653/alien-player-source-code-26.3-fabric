@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "alienplayer",
+  "version": "1.0.0",
+  "name": "Alien Player",
+  "description": "Transforme tous les joueurs en aliens 3D. Armures et objets en main restent visibles.",
+  "authors": ["Toi"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["fr.exemple.alienplayer.AlienPlayerClient"]
+  },
+  "mixins": ["alienplayer.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "26.3",
+    "fabric-api": "*",
+    "java": ">=25"
+  }
+}
